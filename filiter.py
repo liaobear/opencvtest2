@@ -2,7 +2,7 @@
 import cv2
 from matplotlib import pyplot as plt
 #filiter test
-img = cv2.imread('./image//test15.jpg')
+img = cv2.imread('./image/test15.jpg')
 img = cv2.resize(img,(800,600))
 
 bila1 = cv2.bilateralFilter(img, 30, 200, 10)
